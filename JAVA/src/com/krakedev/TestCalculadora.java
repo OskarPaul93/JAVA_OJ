@@ -23,6 +23,10 @@ public class TestCalculadora {
 		double r3;
 		r3=c1.promedio(10,8,9);
 		System.out.println("El total del promedio es: " + r3);
+		
+		//Saludar
+		c1.saludar();
+		
 
 	}
 

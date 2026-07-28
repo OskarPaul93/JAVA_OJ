@@ -19,5 +19,10 @@ public class Calculadora {
 		resultado= (a + b + c)/3;
 		return resultado;
 	}
+	
+	public void saludar() {
+		System.out.println("Ahorita no joven, Salí al almuerzo. Regreso en 15 minutos");
+		
+	}
 
 }
