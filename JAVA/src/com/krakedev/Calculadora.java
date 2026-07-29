@@ -24,5 +24,19 @@ public class Calculadora {
 		System.out.println("Ahorita no joven, Salí al almuerzo. Regreso en 15 minutos");
 		
 	}
+	
+	public double restar (double n1, double n2) {
+		double resultado;
+		resultado= n1 -n2;
+		return resultado;
+		
+	}
+		
+	public double descuento (double precio, double porcentaje) {
+		double resultado;
+		resultado= precio - (precio*porcentaje/100);
+		return resultado;
+	}
+		
+	}
 
-}

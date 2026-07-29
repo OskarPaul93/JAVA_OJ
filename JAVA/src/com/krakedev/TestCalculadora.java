@@ -27,6 +27,16 @@ public class TestCalculadora {
 		//Saludar
 		c1.saludar();
 		
+		// Restar
+		double r4;
+		r4=c1.restar(25, 5);
+		System.out.println("El total de la resta es: " + r4);
+		
+		//Descuento
+		double r5; 
+		r5=c1.descuento(150, 15);
+		System.out.println("El total del descuento es: " + r5);
+		
 
 	}
 
