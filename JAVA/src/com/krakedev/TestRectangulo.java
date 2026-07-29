@@ -5,10 +5,10 @@ public class TestRectangulo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Rectangulo r1= new Rectangulo ();{
+		Rectangulo r1= new Rectangulo ();
 			
-			r1.altura = 10;
-			r1.base= 5;
+			r1.setAltura  (10);
+			r1.setBase(5);
 			
 			int resultadoArea;
 		
@@ -16,12 +16,12 @@ public class TestRectangulo {
 			
 			System.out.println("El area del rectangulo 1 es: " + resultadoArea);	
 			
-		}
 		
-		Rectangulo r2= new Rectangulo ();{
+		
+		Rectangulo r2= new Rectangulo ();
 			
-			r2.altura = 3;
-			r2.base= 8;
+			r2.setAltura (3);
+			r2.setBase(8);
 			
 			int resultadoArea2;
 		
@@ -29,13 +29,13 @@ public class TestRectangulo {
 			
 			System.out.println("El area del rectangulo 2 es: " + resultadoArea2);	
 			
-		}
+		
 		
 		//Perimetro
-		Rectangulo r3= new Rectangulo ();{
+		Rectangulo r3= new Rectangulo ();
 			
-			r3.largo = 4;
-			r3.ancho= 2;
+			r3.setLargo (4);
+			r3.setAncho (2);
 			
 			double resultadoPerimetro;
 		
@@ -43,7 +43,7 @@ public class TestRectangulo {
 			
 			System.out.println("El perimetro del rectangulo es: " + resultadoPerimetro);	
 			
-		}
+		
 
 	}
 

@@ -4,9 +4,9 @@ public class TestCuadrado {
 
 	public static void main(String[] args) {
 		
-		Cuadrado c1= new Cuadrado ();{
+		Cuadrado c1= new Cuadrado ();
 			
-			c1.lado = 3;
+			c1.setLado (3);
 			
 			
 			double resultadoArea;
@@ -28,57 +28,57 @@ public class TestCuadrado {
 			
 			System.out.println("El perimetro del cuadrado 1 es: " + resultadoPerimetro);	
 			
-		}
 		
-		Cuadrado c3= new Cuadrado ();{
-			
-			c3.lado = 5;
-			
-			
-			double resultadoArea;
 		
-			resultadoArea= c3.calcularArea();
+		Cuadrado c3= new Cuadrado ();
+			
+			c3.setLado (5);
+			
+			
+			double resultadoArea2;
+		
+			resultadoArea2= c3.calcularArea();
 			
 			System.out.println("======Cuadrado 2======");
-			System.out.println("El area del cuadrado 2  es: " + resultadoArea);	
+			System.out.println("El area del cuadrado 2  es: " + resultadoArea2);	
 			
 
 		
 		//Perimetro
 			
 			
-			double resultadoPerimetro;
+			double resultadoPerimetro2;
 		
-			resultadoPerimetro= c3.calcularPerimetro();
+			resultadoPerimetro2= c3.calcularPerimetro();
 			
-			System.out.println("El perimetro del cuadrado 2  es: " + resultadoPerimetro);	
+			System.out.println("El perimetro del cuadrado 2  es: " + resultadoPerimetro2);	
 			
-		}
 		
-		Cuadrado c4= new Cuadrado ();{
-			
-			c4.lado = 10;
-			
-			
-			double resultadoArea;
 		
-			resultadoArea= c4.calcularArea();
+		Cuadrado c4= new Cuadrado ();
+			
+			c4.setLado (10);
+			
+			
+			double resultadoArea3;
+		
+			resultadoArea3= c4.calcularArea();
 			
 			System.out.println("======Cuadrado 3======");
-			System.out.println("El area del cuadrado 3 es: " + resultadoArea);	
+			System.out.println("El area del cuadrado 3 es: " + resultadoArea3);	
 			
 		
 		
 		//Perimetro
 	
 			
-			double resultadoPerimetro;
+			double resultadoPerimetro3;
 		
-			resultadoPerimetro = c4.calcularPerimetro();
+			resultadoPerimetro3 = c4.calcularPerimetro();
 			
-			System.out.println("El perimetro del cuadrado 3 es: " + resultadoPerimetro);	
+			System.out.println("El perimetro del cuadrado 3 es: " + resultadoPerimetro3);	
 			
-		}
+		
 
 	}
 
