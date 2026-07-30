@@ -4,9 +4,8 @@ public class TestCuadrado {
 
 	public static void main(String[] args) {
 		
-		Cuadrado c1= new Cuadrado ();
+		Cuadrado c1= new Cuadrado (3);
 			
-			c1.setLado (3);
 			
 			
 			double resultadoArea;
@@ -30,10 +29,8 @@ public class TestCuadrado {
 			
 		
 		
-		Cuadrado c3= new Cuadrado ();
-			
-			c3.setLado (5);
-			
+		Cuadrado c3= new Cuadrado (5);
+				
 			
 			double resultadoArea2;
 		
@@ -55,9 +52,8 @@ public class TestCuadrado {
 			
 		
 		
-		Cuadrado c4= new Cuadrado ();
+		Cuadrado c4= new Cuadrado (10);
 			
-			c4.setLado (10);
 			
 			
 			double resultadoArea3;

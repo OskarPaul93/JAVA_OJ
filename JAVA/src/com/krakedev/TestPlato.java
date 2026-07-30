@@ -4,28 +4,14 @@ public class TestPlato {
 
 	public static void main(String[] args) {
 		Plato platoA;
-		platoA= new Plato ();
+		platoA= new Plato ("Ceviche", "Entrada", 3.5f , true);
 		
 		Plato platoB;
-		platoB= new Plato ();
+		platoB= new Plato ("Arroz Marinero", "Plato fuerte", 8.7f , false);
 
 		Plato platoC;
-		platoC= new Plato ();
+		platoC= new Plato ("Helado", "Postre", 5 , true);
 		
-		platoA.setNombre("Ceviche");
-		platoA.setTipo("Entrada");
-		platoA.setPrecio (3.5f);
-		platoA.setDisponible (true);
-		
-		platoB.setNombre("Arroz Marinero");
-		platoB.setTipo("Plato fuerte");
-		platoB.setPrecio(8.7f);
-		platoB.setDisponible(false);
-		
-		platoC.setNombre("Helado");
-		platoC.setTipo("Postre");
-		platoC.setPrecio(5);
-		platoC.setDisponible (true);
 		
 		System.out.println("====Plato A====");		
 		System.out.println("Nombre: "+ platoA.getNombre());

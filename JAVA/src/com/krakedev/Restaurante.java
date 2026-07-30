@@ -7,6 +7,13 @@ public class Restaurante {
 	private float calificacion;
 	
 	
+	public Restaurante (String nombre, String direccion, float calificacion) {
+		this.nombre = nombre;
+		this.direccion= direccion;
+		this.calificacion=calificacion;
+	}
+	
+	
 	public String getNombre() {
 		return nombre;
 	}
